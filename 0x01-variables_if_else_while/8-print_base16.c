@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int i;
+i	int i;
 	char ch;
 
 	for (i = '0'; i <= '9'; i++)
@@ -18,6 +18,6 @@ int main(void)
 	for (ch = 'a'; ch <= 'f'; ch++)
 		putchar(ch);
 	putchar('\n');
-	
+
 	return (0);
 }
