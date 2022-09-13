@@ -2,8 +2,8 @@
 
 /**
  * add - Check main
- * @a: An integer x
- * @b: An integer y
+ * @x: An integer x
+ * @y: An integer y
  * Description: Function that adds two integers and returns the result
  * Return: Result to add a and b
  */
