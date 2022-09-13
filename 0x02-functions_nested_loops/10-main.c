@@ -11,6 +11,6 @@ int main(void)
     int n;
 
     n = add(89, 9);
-    printf("%d\n", n);
+    _putchar(n);
     return (0);
 }
