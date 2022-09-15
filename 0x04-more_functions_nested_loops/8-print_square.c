@@ -6,15 +6,15 @@
  * @size: An input integer
  * Return: Always 0
  */
-void print_square(int x)
+void print_square(int size)
 {
 	int i, j;
 
-	if (x > 0)
+	if (size > 0)
 	{
-		for (i = 0; i < x; i++)
+		for (i = 0; i < size; i++)
 		{
-			for (j = 0; j < x; j++)
+			for (j = 0; j < size; j++)
 				_putchar('#');
 			_putchar('\n');
 		}
