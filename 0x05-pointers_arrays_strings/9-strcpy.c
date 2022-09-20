@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strcpy - a function that copies the string pointed to by src,
  * including the terminating null byte (\0),
@@ -14,5 +16,6 @@ char *_strcpy(char *dest, char *src)
 
 	while (*src)
 		*dest++ = *src++;
+	*dest++ = '\0';
 	return (str);
 }
